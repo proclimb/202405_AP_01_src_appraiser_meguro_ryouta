@@ -498,8 +498,8 @@ function subFManagerViewEdit()
 				</tr>
 			</table>
 
-			<a href="javascript:fnFManagerViewEditCheck();"><img src="./images/<?php print $btnImage; ?>" /></a>　
-			<a href="javascript:form.act.value='fManagerView';form.submit();"><img src="./images/btn_return.png" /></a>　
+			<a href="javascript:fnFManagerViewEditCheck();"><img src="./images/<?php print $btnImage; ?>" /></a>
+			<a href="javascript:form.act.value='fManagerSearch';form.submit();"><img src="./images/btn_return.png" /></a>
 			<?php
 			if ($pdfNo) {
 			?>
